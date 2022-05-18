@@ -30,7 +30,7 @@ public class DataGenerator {
                 faker.name().fullName(),
                 faker.phoneNumber().phoneNumber(),
                 LocalDate.now().plusDays(3).format(df),
-                LocalDate.now().plusDays(5).format(df));
+                LocalDate.now().plusDays(6).format(df));
     }
 }
 
